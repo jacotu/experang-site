@@ -39,7 +39,7 @@ h1 {
     color: #FFF;
     font-size: 2.962vw;
     text-align: center;
-    font-family: FormaDJRCyrillicText-Regular;
+    font-family: FormaDJR Cyrillic Text;
     font-weight: 500;
 }
 
@@ -47,7 +47,7 @@ h2 {
     color: #FFF;
 text-align: center;
 font-size: 1.389vw;
-font-family: FormaDJRCyrillicText-Regular;
+font-family: FormaDJR Cyrillic Text;
 font-weight: 500;
 }
 
@@ -55,7 +55,7 @@ p {
     color: #E7E7E7;
     text-align: center;
     font-size: 1.026vw;
-    font-family: FormaDJRCyrillicText-Regular;
+    font-family: FormaDJR Cyrillic Text;
 }
 
 .pmargins {
@@ -213,7 +213,7 @@ font-weight: 500;
     margin-left: 0.694vw;
     color: #FFF;
     font-size: 12px;
-    font-family: FormaDJRCyrillicText-Regular;
+    font-family: FormaDJR Cyrillic Text;
     font-weight: 500;
 }
 
@@ -506,7 +506,7 @@ font-weight: 500;
   .menu-buttons {
     display: flex;
     padding: 8px 10px;
-    font-family: FormaDJRCyrillicText-Regular;
+    font-family: FormaDJR Cyrillic Text;
     font-weight: 500;
     color: #FFF;
     font-size: 18px;
@@ -596,7 +596,7 @@ font-weight: 500;
     color: #FFF;
     text-align: center;
     font-size: 1.389vw;
-    font-family: FormaDJRCyrillicText-Regular;
+    font-family: FormaDJR Cyrillic Text;
     font-weight: 500;
     background: rgba(122, 210, 244, 0.50);
     width: 50% !important; /* Adjust the desired width */
@@ -624,7 +624,7 @@ font-weight: 500;
     color: #FFF;
     text-align: center;
     font-size: 1.389vw;
-    font-family: FormaDJRCyrillicText-Regular;
+    font-family: FormaDJR Cyrillic Text;
     font-weight: 500;
   }
 
@@ -647,7 +647,7 @@ font-weight: 500;
     color: #FFF;
     text-align: center;
     font-size: 1.389vw;
-    font-family: FormaDJRCyrillicText-Regular;
+    font-family: FormaDJR Cyrillic Text;
     font-weight: 500;
   }
   
@@ -663,7 +663,7 @@ font-weight: 500;
     color: #FFF;
     text-align: center;
     font-size: 1.389vw;
-    font-family: FormaDJRCyrillicText-Regular;
+    font-family: FormaDJR Cyrillic Text;
     font-weight: 500;
   }
   
