@@ -1,0 +1,672 @@
+body {
+    height: 60.359vw;
+    background-image: url('../images/background1.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+
+.elements {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.shoulders {
+    width: 100%;
+    height: 0.926vw;
+    background: rgba(243, 243, 243, 0.20);
+    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.10);
+    backdrop-filter: blur(12.5px);
+    padding: 1vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    z-index: 1;
+}
+
+.mini-shoulders {
+    margin-top: 3.314vw;
+    gap: 69.157vw;
+    display: flex;
+}
+
+h1 {
+    color: #FFF;
+    font-size: 2.962vw;
+    text-align: center;
+    font-family: Forma DJR Cyrilic Variable;
+    font-weight: 500;
+}
+
+h2 {
+    color: #FFF;
+text-align: center;
+font-size: 1.389vw;
+font-family: Forma DJR Cyrilic Variable;
+font-weight: 500;
+}
+
+p {
+    color: #E7E7E7;
+    text-align: center;
+    font-size: 1.026vw;
+    font-family: Forma DJR Cyrilic Variable;
+}
+
+.pmargins {
+    margin-left: 0.810vw;
+    margin-right: 0.810vw;
+}
+
+.headers {
+    gap: 1.157vw;
+    display: flex;
+}
+
+.miniicons {
+    margin-top: -0.479vw;
+}
+
+.timestyle {
+    color: #FFF;
+font-size: 1.026vw;
+font-family: Forma DJR Cyrilic Variable;
+font-weight: 500;
+}
+
+#logo {
+    margin-left: 0.579vw;
+    width: 12vw;
+    height: 4.0vw;
+    position: relative;
+    background-image: url('../images/logo.svg');
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: 50% auto;
+}
+
+.mainbody {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.tab_inside {
+    display: flex;
+    border-radius: 0.694vw;
+    flex-direction: column;
+    max-height: 100%;
+    color: #000000;
+    background-color: transparent;
+    box-shadow: 0px 24px 24px rgba(0, 0, 0, 0.1);;
+}
+
+.firsttab {
+    position: absolute;
+    z-index: 6;
+    left: 27.257vw;
+	top: 3.993vw;
+	width: 38.889vw;
+	height: 46.296vw;
+}
+
+#element1 {
+	cursor: grab;
+}
+
+#element1:active {
+	cursor: grabbing;
+}
+
+.secondtab {
+    position: absolute;
+    z-index: 5;
+    left: 4.572vw;
+	top: 10.648vw;
+	width: 24.421vw;
+	height: 24.711vw;
+}
+
+#element2 {
+	cursor: grab;
+}
+
+#element2:active {
+	cursor: grabbing;
+}
+
+.thirdtab {
+    position: absolute;
+    z-index: 4;
+    left: 1.273vw;
+	top: 26.968vw;
+	width: 24.421vw;
+	height: 24.711vw;
+}
+
+#element3 {
+	cursor: grab;
+}
+
+#element3:active {
+	cursor: grabbing;
+}
+
+.fourthtab {
+    position: absolute;
+    z-index: 4;
+    left: 52.141vw;
+	top: 6.539vw;
+	width: 32.002vw;
+	height: 33.912vw;
+}
+
+#element4 {
+	cursor: grab;
+}
+
+#element4:active {
+	cursor: grabbing;
+}
+
+.fifthtab {
+    position: absolute;
+    z-index: 3;
+    left: 75.637vw;
+	top: 23.958vw;
+	width: 23.438vw;
+	height: 24.836vw;
+}
+
+#element5 {
+	cursor: grab;
+}
+
+#element5:active {
+	cursor: grabbing;
+}
+
+.selected {
+    z-index: 9999;
+  }
+
+
+.circles {
+    flex-shrink: 0;
+    border-radius: 52.083vw;
+    background-color: rgba(255, 255, 255, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    width: 0.926vw;
+    height: 0.926vw;
+}
+
+.name {
+    margin-left: 0.694vw;
+    color: #FFF;
+    font-size: 12px;
+    font-family: Forma DJR Cyrilic Variable;
+    font-weight: 500;
+}
+
+.headertabs {
+    gap: 0.231vw;
+    padding: 0.694vw;
+    display: flex;
+    align-items: center;
+    user-select: none;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-top-left-radius: 0.694vw;
+    border-top-right-radius: 0.694vw;
+    backdrop-filter: blur(12px);
+    text-shadow: 0px 1px 2px  rgba(0, 0, 0, 0.1);
+    color: var(--st--colors-black0);
+    font-size: 0.694vw;
+    font-weight: 500;
+    border-top: 1px solid rgba(255, 255, 255, 0.4);
+    border-left: 1px solid rgba(255, 255, 255, 0.4);
+    border-right: 1px solid rgba(255, 255, 255, 0.4);;
+}
+
+.picturestabs {
+    display: block;
+    width: 100%;
+    height: auto;
+    pointer-events: none;
+}
+
+.manifesto {
+    height: 42.650vw;
+    background-image: url('../images/manifesto.svg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center;
+}
+
+.footers {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1.157vw;
+    position: relative;
+  }
+  
+  .minifooters {
+    padding: 0.463vw 0.231vw;
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+  }
+  
+  .minifooters::before {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    height: 3.299vw;
+    content: "";
+    border-radius: 0.347vw;
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    box-shadow: 0px 8px 18px rgba(0, 0, 0, 0.05);
+  }
+  
+  .icons {
+    list-style: none;
+    position: relative;
+    padding-left: 0.331vw;
+    padding-right: 0.331vw;
+    width: 4.59vw;
+    height: 4.431vw;
+    margin-top: -3.472vw;
+  }
+  
+  .iconsstyle {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 1.09vw;
+    transition: box-shadow 0.3s, transform 0.3s;
+    box-shadow: 0px 8px 18px rgba(0, 0, 0, 0.05);
+    position: relative;
+  }
+  
+  .iconsstyle:hover {
+    box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.1);
+    transform: scale(1.08);
+  }
+  
+  .iconsstyle:hover .icon-name {
+    opacity: 1;
+  }
+  
+  .icon-name {
+    text-align: center;
+    font-size: 12px;
+    opacity: 0;
+    transition: opacity 0.2s;
+  }
+  
+  .lines {
+    width: 1px;
+    height: 1.736vw;
+    background: rgba(255, 255, 255, 0.4);
+    list-style: none;
+    position: relative;
+    margin-top: -0.579vw;
+    margin-left: 0.231vw;
+    margin-right: 0.231vw;
+  }
+
+  .point {
+    background: #FFFFFF;;
+    border-radius: 900vw;
+    position: absolute;
+    left: 50%;
+    width: 4px;
+    height: 4px;
+    bottom: -5px;
+    margin-left: -2px;
+  }
+
+  .events {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .eventsstyle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0.579vw;
+    background: rgba(226, 226, 226, 0.10);
+    backdrop-filter: blur(7.5px);
+    width: 26.736vw;
+    height: 42.766vw;
+  }
+
+  .posters1 {
+    background-image: url('../images/pasta.svg');
+    background-size: 100% 100%;
+    width: 25.694vw;
+    height: 36.343vw;
+    align-items: center;
+    margin-top: 0.289vw;
+    border-radius: 0.859vw;
+  }
+
+  .posters2 {
+    background-image: url('../images/piknik.svg');
+    background-size: 100% 100%;
+    width: 25.694vw;
+    height: 36.343vw;
+    align-items: center;
+    margin-top: 0.289vw;
+    border-radius: 0.859vw;
+  }
+
+  .posters3 {
+    background-image: url('../images/cosmo.svg');
+    background-size: 100% 100%;
+    width: 25.694vw;
+    height: 36.343vw;
+    align-items: center;
+    margin-top: 0.289vw;
+    border-radius: 0.859vw;
+  }
+
+  #h2margin {
+    margin-top: 1.857vw;
+  }
+
+  .shopflex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .row {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    align-items: center;
+    margin-top: 0.868vw;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    border-radius: 0.379vw;
+    background: rgb(115 133 146 / 20%);
+    backdrop-filter: blur(7.5px);
+  }
+
+  .shop1 {
+    background-image: url('../images/catch.svg');
+    background-size: 100% 100%;
+    width: 25.463vw;
+    height: 16.782vw;
+    align-items: center;
+    margin-top: 0.289vw;
+    border-radius: 0.359vw;
+  }
+
+  .shop2 {
+    background-image: url('../images/scarf.svg');
+    background-size: 100% 100%;
+    width: 25.463vw;
+    height: 16.782vw;
+    align-items: center;
+    margin-top: 0.289vw;
+    border-radius: 0.359vw;
+  }
+
+  .shop3 {
+    background-image: url('../images/sunglasses.svg');
+    background-size: 100% 100%;
+    width: 25.463vw;
+    height: 16.782vw;
+    align-items: center;
+    margin-top: 0.289vw;
+    border-radius: 0.359vw;
+  }
+
+  .shop4 {
+    background-image: url('../images/bag.svg');
+    background-size: 100% 100%;
+    width: 25.463vw;
+    height: 16.782vw;
+    align-items: center;
+    margin-top: 0.289vw;
+    border-radius: 0.359vw;
+  }
+
+  .shop5 {
+    background-image: url('../images/shopper.svg');
+    background-size: 100% 100%;
+    width: 25.463vw;
+    height: 16.782vw;
+    align-items: center;
+    margin-top: 0.289vw;
+    border-radius: 0.359vw;
+  }
+
+  .shop6 {
+    background-image: url('../images/coffee.svg');
+    background-size: 100% 100%;
+    width: 25.463vw;
+    height: 16.782vw;
+    align-items: center;
+    margin-top: 0.289vw;
+    border-radius: 0.359vw;
+  }
+
+  #rowmargin {
+    margin-top: 60px;
+  }
+
+  #textmargin {
+    margin-top: 0.557vw;
+  }
+
+  .supertab {
+    border-radius: 0.579vw;
+    background: rgb(115 133 146 / 20%);
+    backdrop-filter: blur(7.5px);
+    position: absolute;
+    left: 24.5vw;
+	top: 13.542vw;
+    width: 49.688vw;
+    height: 28.704vw;
+  }
+
+  .menu {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+  }
+
+  .menu-buttons {
+    display: flex;
+    padding: 8px 10px;
+    font-family: Forma DJR Cyrilic Variable;
+    font-weight: 500;
+    color: #FFF;
+    font-size: 18px;
+    line-height: 82%;
+    border-radius: 3px;
+    background: rgb(150 186 200 / 40%);
+    backdrop-filter: blur(7.5px);
+    margin-left: 6px;
+    transition: 0.05s ease-in-out;
+  }
+
+  .aboutusmini {
+    display: flex;
+    gap: 2.315vw;
+    justify-content: center;
+    margin-top: 4.051vw;
+  }
+
+  .aboutusdesk {
+    margin-top: 1.157vw;
+    border-radius: 0.579vw;
+    background: rgb(115 133 146 / 20%);
+    width: 26.042vw;
+    height: 13.484vw;
+  }
+
+  .aboutustext {
+    font-size: 1.162vw;
+   text-align: left;
+   padding-left: 1.736vw;
+   padding-top: 3.472vw;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 11.57vw;
+    line-height: 16.78vw;
+    font-feature-settings: 'ss03' on;
+    color: #F7F7F9;
+    border-radius: 1.16vw;
+  }
+  
+  .swiper {
+    height: 25.116vw;
+    width: 48.380vw;
+    /* max-width: 100%; */
+    justify-content: center;
+    align-items: center;
+    /* margin-left: auto;
+    margin-right: auto; */
+  }
+  
+  #swiper1 {
+    background-image: url(../images/hello.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: transparent;
+  }
+  
+  #swiper2 {
+    background-image: url(../images/hello1.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  #swiper3 {
+    background-image: url(../images/card3.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  #swiper4 {
+    background-image: url(../images/card4.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .all {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.389vw;
+    font-family: Forma DJR Cyrilic Variable;
+    font-weight: 500;
+    background: rgba(122, 210, 244, 0.50);
+    width: 50% !important; /* Adjust the desired width */
+    max-width: 400px !important;
+    height: 300px; /* Adjust the desired height */
+    margin: 0 auto; /* Center the form horizontally */
+    padding: 20px; /* Add some padding around the form */
+  }
+
+  #passwordModal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    background: rgba(94, 178, 212, 0.50);
+    backdrop-filter: blur(10px);
+    z-index: 9999;
+    opacity: 1; 
+    transition: opacity 0.5s; 
+    color: #FFF;
+    text-align: center;
+    font-size: 1.389vw;
+    font-family: Forma DJR Cyrilic Variable;
+    font-weight: 500;
+  }
+
+  #passwordModal form {
+    background-color: rgba(160, 228, 255, 0.50);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+  }
+
+#passwordModal input {
+    background-color: transparent; 
+    border-radius: 15px;
+    background: rgba(160, 228, 255, 0.50);
+    backdrop-filter: blur(7.5px);
+    border: none;
+    outline: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.389vw;
+    font-family: Forma DJR Cyrilic Variable;
+    font-weight: 500;
+  }
+  
+  #passwordModal button {
+    border-radius: 15px;
+    background: rgba(160, 228, 255, 0.50);
+    backdrop-filter: blur(7.5px);
+    color: #FFF; 
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.389vw;
+    font-family: Forma DJR Cyrilic Variable;
+    font-weight: 500;
+  }
+  
+
+  
+  

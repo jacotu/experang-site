@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Experang Site</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+  <link rel="icon" type="image/x-icon" href="images/icon.ico">
+  <link rel="icon" type="image/png" href="images/icon.png">
+  <link rel="stylesheet" href="stylesheets/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+  <script src="js/jquery/2.1.1/jquery.min.js"></script>
+  <script src="js/jqueryui/1.12.1/jquery-ui.min.js"></script>
+  <script src="js/script.js"></script>
+</head>
+<div id="passwordModal">
+  <form id="passwordForm">
+    <input type="password" id="passwordInput" placeholder="Enter password" class="custom-input">
+    <button type="submit" class="custom-button">Submit</button>
+  </form>
+</div>
+  <div>
+    <main class="elements">
+      <header class="shoulders">
+        <div class="mini-shoulders">
+          <div id="logo"></div>
+          <div class="headers">
+            <div class="miniicons"><img alt="icons" src="images/iconstapbar.svg"></div>
+            <p id="currentDateTime" class="timestyle"></p>
+          </div>
+        </div>
+      </header>
+    </div>
+      
+      <section class="mainbody">
+        <div id="element1" class="firsttab">
+          <div class="tab_inside">
+            <header class="headertabs window--drag-handle">
+              <div class="circles"></div>
+              <div class="circles"></div>
+              <div class="circles"></div>
+              <div class="name">manifesto.txt</div>
+            </header>
+            <div class="manifesto">
+              <h1>Манифест Эксперанга</h1>
+              <p class="pmargins">Мы предлагаем надежный и быстрый способ доставки товаров в любую точку мира — доставку бумерангами! Наша компания “Эксперанг” заботится о своих клиентах и готова предложить уникальный сервис доставки, который позволит вам получить свои покупки без задержек и дополнительных расходов.</p>
+              <!-- <img alt="manifesto" src="images/manifesto.svg" class="picturestabs"> -->
+            </div>
+          </div>
+        </div>
+        <div id="element2" class="secondtab">
+          <div class="tab_inside">
+            <header class="headertabs window--drag-handle">
+              <div class="circles"></div>
+              <div class="circles"></div>
+              <div class="circles"></div>
+              <div class="name">taxi.png</div>
+            </header>
+            <div>
+              <img alt="taxi" src="images/taxi.svg" class="picturestabs">
+            </div>
+          </div>
+        </div>
+        <div id="element3" class="thirdtab">
+          <div class="tab_inside">
+            <header class="headertabs window--drag-handle">
+              <div class="circles"></div>
+              <div class="circles"></div>
+              <div class="circles"></div>
+              <div class="name">showreel.mp4</div>
+            </header>
+            <div>
+              <a href="https://www.youtube.com/watch?v=g5mVMS7D6Do"><img alt="video" src="images/video.svg" class="picturestabs"></a>
+            </div>
+          </div>
+        </div>
+        <div id="element4" class="fourthtab">
+          <div class="tab_inside">
+            <header class="headertabs window--drag-handle">
+              <div class="circles"></div>
+              <div class="circles"></div>
+              <div class="circles"></div>
+              <div class="name">poster.html</div>
+            </header>
+            <div>
+              <a href="https://jacotu.github.io/experang-animation/"><img alt="posterhtml" src="images/poster.svg" class="picturestabs"></a>
+            </div>
+          </div>
+        </div>
+        <div id="element5" class="fifthtab">
+          <div class="tab_inside">
+            <header class="headertabs window--drag-handle">
+              <div class="circles"></div>
+              <div class="circles"></div>
+              <div class="circles"></div>
+              <div class="name">package.png</div>
+            </header>
+            <div>
+              <img alt="posterhtml" src="images/package.svg" class="picturestabs">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footers">
+        <nav class="minifooters">
+          <li class="icons">
+            <a href="https://portfolio.hse.ru/?filter=1_N_N_N_7305_2022_1076_N_N_N_N" class="iconsstyle">
+              <img class="imagestyle" src="images/school.svg" alt="">
+            </a>
+          </li>
+          <li class="lines"></li>
+          <li class="icons">
+            <a href="aboutus.html" class="iconsstyle">
+              <img class="imagestyle" src="images/aboutus.svg" alt="">
+            </a>
+          </li>
+          <li class="icons">
+            <a href="events.html" class="iconsstyle">
+              <img class="imagestyle" src="images/events.svg" alt="">
+            </a>
+          </li>
+          <li class="icons">
+            <a href="index.html" class="iconsstyle">
+              <img class="imagestyle" src="images/main.svg" alt="">
+              <div class="point"></div>
+            </a>
+          </li>
+          <li class="icons">
+            <a href="shop.html" class="iconsstyle">
+              <img class="imagestyle" src="images/shop.svg" alt="">
+            </a>
+          </li>
+          <li class="lines"></li>
+          <li class="icons">
+            <a href="https://jacotu.github.io/experang-cards/" class="iconsstyle">
+              <img class="imagestyle" src="images/games.svg" alt="">
+            </a>
+          </li>
+          <li class="icons">
+            <a href="https://adc.ac/" class="iconsstyle">
+              <img class="imagestyle" src="images/adc.svg" alt="">
+            </a>
+          </li>
+        </nav>
+      </footer>
+
+    </main>
+  </div>
+  <script src="vanilla-tilt.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const passwordForm = document.getElementById('passwordForm');
+      const passwordInput = document.getElementById('passwordInput');
+      const passwordModal = document.getElementById('passwordModal');
+      const mainContent = document.querySelector('main.elements');
+  
+      passwordForm.addEventListener('submit', function(event) {
+        event.preventDefault();
+  
+        passwordModal.style.opacity = '0'; 
+
+        setTimeout(function() {
+          passwordModal.style.display = 'none';
+        }, 500); 
+        mainContent.style.display = 'block';
+      });
+    });
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Experang Site</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+  <link rel="icon" type="image/x-icon" href="images/icon.ico">
+  <link rel="icon" type="image/png" href="images/icon.png">
+  <link rel="stylesheet" href="stylesheets/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+  <script src="js/jquery/2.1.1/jquery.min.js"></script>
+  <script src="js/jqueryui/1.12.1/jquery-ui.min.js"></script>
+  <script src="js/script.js"></script>
+  <style>
+    body {
+    background-image: url('images/background2.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+  </style>
+  <script>
+$(".eventsstyle").click(function() {
+  var $eventsstyle = $(this);
+  var $posters = $eventsstyle.find(".posters1, .posters2, .posters3");
+  var $form = $eventsstyle.find(".form");
+  var $formDone = $eventsstyle.find(".form-done");
+
+  $posters.css("background-color", "black");
+  $form.addClass("hidden");
+  $formDone.removeClass("hidden");
+  $formDone.addClass("visible");
+});
+  </script>
+</head>
+
+<body onload="getCurrentDateTime()">
+  <div>
+    <main class="elements">
+      <header class="shoulders">
+        <div class="mini-shoulders">
+          <div id="logo"></div>
+          <div class="headers">
+            <div class="miniicons"><img alt="icons" src="images/iconstapbar.svg" ></div>
+            <p id="currentDateTime" class="timestyle"></p>
+          </div>
+        </div>
+      </header>
+    </div>
+      
+      <section class="mainbody">
+        <div class="events">
+          <div class="eventsstyle" data-tilt data-tilt-scale="1.1" data-tilt-glare data-tilt-max-glare="0.6">
+            <div class="posters1"></div>
+            <h2 id="h2margin">Фестиваль пасты <br> 25–28 апреля</h2>
+          </div>
+          <div class="eventsstyle" data-tilt data-tilt-scale="1.1" data-tilt-glare data-tilt-max-glare="0.6">
+            <div class="posters2"></div>
+            <h2 id="h2margin">Большой пикник <br> 16 мая</h2>
+          </div>
+          <div class="eventsstyle" data-tilt data-tilt-scale="1.1" data-tilt-glare data-tilt-max-glare="0.6">
+            <div class="posters3"></div>
+            <h2 id="h2margin">Инопланетная распродажа <br> 1–10 июня</h2>
+          </div>
+        </div>
+      </section>
+      <footer class="footers">
+        <nav class="minifooters">
+          <li class="icons">
+            <a href="https://portfolio.hse.ru/?filter=1_N_N_N_7305_2022_1076_N_N_N_N" class="iconsstyle">
+              <img class="imagestyle" src="images/school.svg" alt="">
+            </a>
+          </li>
+          <li class="lines"></li>
+          <li class="icons">
+            <a href="aboutus.html" class="iconsstyle">
+              <img class="imagestyle" src="images/aboutus.svg" alt="">
+            </a>
+          </li>
+          <li class="icons">
+            <a href="events.html" class="iconsstyle">
+              <img class="imagestyle" src="images/events.svg" alt="">
+            </a>
+          </li>
+          <li class="icons">
+            <a href="index.html" class="iconsstyle">
+              <img class="imagestyle" src="images/main.svg" alt="">
+              <div class="point"></div>
+            </a>
+          </li>
+          <li class="icons">
+            <a href="shop.html" class="iconsstyle">
+              <img class="imagestyle" src="images/shop.svg" alt="">
+            </a>
+          </li>
+          <li class="lines"></li>
+          <li class="icons">
+            <a href="https://jacotu.github.io/experang-cards/" class="iconsstyle">
+              <img class="imagestyle" src="images/games.svg" alt="">
+            </a>
+          </li>
+          <li class="icons">
+            <a href="https://adc.ac/" class="iconsstyle">
+              <img class="imagestyle" src="images/adc.svg" alt="">
+            </a>
+          </li>
+        </nav>
+      </footer>
+
+    </main>
+  </div>
+  <script src="vanilla-tilt.js"></script>
+</body>
+
+</html>

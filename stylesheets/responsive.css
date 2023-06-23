@@ -1,0 +1,35 @@
+@media all and (min-width: 1729px){
+        .mainbody {
+                max-height: 1270px;
+              }
+
+  }
+@media all and (min-width: 1441px) and (max-width: 1728px){
+        .mainbody {
+                max-height: 1020px;
+              }
+    }
+@media all and (min-width: 1366px) and (max-width: 1440px) {
+        .mainbody {
+                max-height: 845px;
+              }
+
+    }
+@media all and (min-width: 768px) and (max-width: 1366px) {
+        @media all and (min-width: 1441px) and (max-width: 1728px){
+        .mainbody {
+                max-height: 620px;
+                }
+
+        }
+@media all and (min-width: 414px) and (max-width: 768px) {
+        .mainbody {
+                max-height: 420px;
+              }
+        }
+@media all and (max-width: 414px) {
+        .mainbody {
+                max-height: 320px;
+              }
+ 
+        }
