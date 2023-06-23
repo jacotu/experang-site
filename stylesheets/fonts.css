@@ -2,3 +2,7 @@
     font-family: 'Forma DJR';
     src: url('../fonts/FormaDJRCyrillicText-Regular.ttf') format("truetype");
   }
+  @font-face {
+    font-family: 'Forma DJR';
+    src: url('../fonts/Forma DJR Cyrilic Variable.ttf') format("truetype");
+  }
